@@ -39,6 +39,7 @@ export default function Header({ skips, user }) {
             <div className="flex items-center gap-2">
                 <span className="text-sm">Skips: {skips}</span>
                 <img src={user.photoURL} alt="avatar" className="w-8 h-8 rounded-full" />
+                {console.log(user.photoURL)}
                 <div>
                     {user.displayName.split(" ")[0]}
                 </div>
