@@ -20,7 +20,7 @@ export default function DailyGreeting({ setSkips }) {
 
         // ✨ pick random local quote
         const random = quotes[Math.floor(Math.random() * quotes.length)];
-        if (today.getDay() != 3) {
+        if (today.getDay() != 0) {
             setQuote(random.q);
 
         } else {
